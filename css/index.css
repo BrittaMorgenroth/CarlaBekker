@@ -1,0 +1,336 @@
+@charset "utf-8";
+/* CSS Document*/
+
+@font-face{
+    font-family:"menulist-beauty-regular";
+    src:url("MenulistBeauty.ttf") format("woff"),
+    url("MenulistBeauty.ttf") format("opentype"),
+    url("MenulistBeauty.ttf") format("truetype");
+}
+
+body {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    margin: 0;
+}
+
+#content {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header-container {
+    width: 100%;
+    background-color: #97a3b8;
+}
+
+.header-inner {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    width: 50%;
+    float: left;
+    padding: 23px 0 0 0;
+}
+
+.header-image {
+    width: 100%;
+    height:80%;
+}
+
+.header-image img {
+    width: 100%;
+    margin: 25px 0 50px 0;
+}
+
+nav {
+    width: 50%;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    float: left;
+
+}
+
+nav ul li a {
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    font-family:menulist-beauty-regular;
+    color: #000;
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    
+}
+
+.cover-text {
+    float: left;
+    margin: -350px auto;
+    position: absolute;
+}
+
+h2 {
+    font-family:'Source Sans Pro', sans-serif;
+    color: #d5b4b2;
+    font-size: 50px;
+    text-align: center;
+    margin: 30px 10px 10px 10px;
+
+}
+
+.quote{
+    float: left;
+    height:350px;
+    padding:20px;
+    background-color: #acccce;
+    margin:-34px 0 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #fff;
+}
+
+section {
+    float: left;
+    margin: 0px 0;
+    padding: 0 0;
+}
+
+
+.image-tiles ul {
+    list-style: none;
+    padding: 0;
+}
+
+.image-tiles ul li {
+    float: left;
+    width: 33.3%;
+    height: 300px;
+}
+
+.image-tiles ul li:hover img {
+    opacity: 0.5;
+}
+
+.image-tiles ul li img {
+    padding: 9PX;
+    width: 95%;
+    height: 95%;
+}
+
+footer {
+    float: left;
+    background-color: #97a3b8;
+    width: 100%;
+    height: 80%
+}
+
+.socialmedia {
+    float: right;
+    padding: 13px;
+}
+
+footer p {
+    text-align: right;
+    width: 50%;
+    float: left;
+    font-size:16px;
+    padding: 18px;
+}
+
+.footer-container {
+    width: 100%;
+    background-color: #97a3b8;
+    float: left;
+    margin: 40px 0 0 0;
+
+}
+
+.footer-inner {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+    font-size: 0
+}
+
+@media only screen and (max-width: 1290px) {
+    .header-inner {
+        width: 100%;
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    .footer-inner {
+        width: 100%;
+    }
+
+    nav {
+        font-size: 20px;
+        padding: 14px 0 0 0;
+    }
+
+    nav ul {
+        float: left;
+    }
+    .quote{
+        height:260px;
+    }
+
+    .image-tiles ul li {
+        width: 33%;
+        height: 33.3%;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    
+    .cover-text{
+        margin:-180px 0;
+    }
+    footer p{
+        width:63%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .header-inner {
+        width: 100%;
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    .footer-inner {
+        width: 100%;
+    }
+
+    nav {
+        font-size: 20px;
+        padding: 14px 0 0 0;
+    }
+
+    nav ul {
+        float: left;
+    }
+    .quote{
+        height:260px;
+    }
+
+    .image-tiles ul li {
+        width: 33%;
+        height: 33.3%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    
+    .cover-text{
+        margin:-180px 0;
+    }
+    footer p{
+        width:63%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .header-inner {
+        width: 100%;
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    .footer-inner {
+        width: 100%;
+    }
+
+    nav {
+        font-size: 14px;
+        width: 65%;
+    }
+
+    header img {
+        width: 100%;
+    }
+
+    header {
+        width: 35%;
+    }
+
+    nav ul {
+        float: left;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .socialmedia img {
+        width: 30%;
+    }
+     h3{
+        font-size: 30px;
+    }
+    .cover-text{
+        margin:-115px 0;
+    }
+      .quote{
+        height:180px;
+    }
+       footer p{
+        width:50%;
+        font-size: 11px;
+    }
+}
